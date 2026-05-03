@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETI - Feira de Tecnologia e Inovação | NRE Pitanga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <img src="Logo FETI.jpg" alt="Logo FETI" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Memória</a></li>
+                    <li><a href="#regras">Regras</a></li>
+                    <li><a href="#inscricao" class="btn-primary">Inscreva-se</a></li>
+                </ul>
+            </nav>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize(1)" title="Aumentar Fonte">A+</button>
+                <button onclick="changeFontSize(-1)" title="Diminuir Fonte">A-</button>
+                <button onclick="toggleContrast()" title="Alto Contraste"><i class="fas fa-adjust"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <span class="badge">Evento Anual</span>
+                <h1>Transformando Ideias em <span class="highlight">Inovação.</span></h1>
+                <p>A FETI é o epicentro da tecnologia no NRE de Pitanga. Explore o passado, prepare-se para o presente e construa o futuro conosco.</p>
+                <div class="hero-btns">
+                    <a href="#inscricao" class="btn-cta">Garantir Participação</a>
+                    <a href="#regras" class="btn-secondary">Ver Editais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2 class="section-title">Registro Fotográfico</h2>
+            <p class="section-subtitle">Relembre os momentos marcantes das edições anteriores.</p>
+            <div class="gallery-tabs" id="gallery-tabs">
+                </div>
+            <div class="gallery-grid" id="gallery-content">
+                </div>
+        </div>
+    </section>
+
+    <section id="regras" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Regras e Competições</h2>
+            <div class="accordion" id="rules-accordion">
+                </div>
+        </div>
+    </section>
+
+    <section id="inscricao" class="section">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Pronto para o Próximo Nível?</h2>
+                <p>As inscrições para a edição atual já estão abertas. Não perca a chance de apresentar seu projeto.</p>
+                <a href="https://seu-formulario-aqui.com" target="_blank" class="btn-huge">Acessar Formulário de Inscrição</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FETI - NRE Pitanga. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
